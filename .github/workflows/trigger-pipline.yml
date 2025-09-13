@@ -14,5 +14,5 @@ jobs:
           curl -X POST \
             -H "Accept: application/vnd.github.everest-preview+json" \
             -H "Authorization: token ${{ secrets.YOUR_GH_PAT}}" \
-            https://api.github.com/repos/gurkan/devsecops-pipeline/dispatches \
+            https://api.github.com/repos/yazicigurkan/petclinic-devops/dispatches \
             -d '{"event_type":"petclinic-updated"}'
